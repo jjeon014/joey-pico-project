@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>PicoW Webserver</title> 
+    </head>
+    <body> <h1>Welcome to Joey's Room Control Webserver</h1>
+        <br>
+        <h2>Room Status:</h2>
+        <p>Humidity: <!--#hum--> %</p>
+        <p>Pressure: <!--#pres--> Pa</p>
+        <p>Temperature: <!--#temp--> C</p>
+        <br>
+        <!-- <h2>This bit is CGI:</h2> -->
+        <a href="/room.cgi?room=0"><button>Get Room Status</button></a>
+        <br>
+        <br>
+   </body>
+</html>
